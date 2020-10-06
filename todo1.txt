@@ -1,0 +1,9 @@
+Node.js should be installed in your laptop
+
+1) create package.json (npm init);
+2) add .gitignore file and include /node_modules inside (understand why we need it in git)
+3) add file users.json and create several users inside (as an object where keys are ids and values are user info (name, email, etc))
+4) install express.js (https://expressjs.com/)
+5) create a simple server with express which contains one route (GET /users)
+6) inside that route you should open file users.json (https://nodejs.org/api/fs.html#fs_fs_readfile_path_options_callback) and return back file's content
+
